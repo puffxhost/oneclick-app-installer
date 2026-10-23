@@ -47,7 +47,7 @@ index.html         → Main UI page
     <strong>Nitin Mehta</strong><br>
     🌐 <a href="https://puffxhost.com" target="_blank">puffxhost.com</a><br>
     📧 support@puffxhost.in<br>
-    📸 <a href="https://www.instagram.com/unknown_coder1x" target="_blank">@unknown_coder1x</a>
+    📸 <a href="https://www.instagram.com/nitinmehta.codes" target="_blank">@nitinmehta.codes</a>
   </p>
 
 <hr>
