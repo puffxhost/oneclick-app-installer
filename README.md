@@ -4,9 +4,9 @@
 
 ## 🔴 Live demo
 
-[**Open the live demo**](https://htmlpreview.github.io/?https://github.com/puffxhost/oneclick-app-installer/blob/main/index.html)
+[**Open the live demo**](https://htmlpreview.github.io/?https://github.com/puffxhost/oneclick-app-installer/blob/baa75cda4d7bdbfeaf2cba3111e818e9b965dbd1/index.html)
 
-The preview is served by HTMLPreview from the repository's `main` branch. Search results are provided by a third-party APK lookup API and depend on that service being available.
+The preview is served by HTMLPreview from a commit-pinned GitHub source. Search results are provided by a third-party APK lookup API and depend on that service being available.
 
 ## ✨ Features
 
