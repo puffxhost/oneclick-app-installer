@@ -4,11 +4,15 @@
 
 ## 🔴 Live demo
 
-[**Open the live demo**](https://htmlpreview.github.io/?https://github.com/puffxhost/oneclick-app-installer/blob/38f73d82a218709ab5d1f26f4f1c1d120669a444/index.html)
+[**Open the live demo**](https://htmlpreview.github.io/?https://github.com/puffxhost/oneclick-app-installer/blob/51bcd5811e6d977f74aa88a4e922087d7e0c903e/index.html)
 
 The preview is served by HTMLPreview from a commit-pinned GitHub source. Search results are provided by a third-party APK lookup API and depend on that service being available.
 
-## ☁️ Puffx Host branding\n\nThe interface uses Puffx Host's cloud identity, a blue-and-cyan visual theme, animated brand accents, and Puffx Host support links. The app is an independent demo interface; APK search and downloads are supplied by the third-party lookup provider described below.\n\n## ✨ Features
+## ☁️ Puffx Host branding
+
+The interface uses Puffx Host's cloud identity, a blue-and-cyan visual theme, animated brand accents, and Puffx Host support links. The app is an independent demo interface; APK search and downloads are supplied by the third-party lookup provider described below.
+
+## ✨ Features
 
 - 🔎 Search app packages by name with quick-search chips
 - 🕘 Recent searches stored locally in your browser, with a clear-history control
