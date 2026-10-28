@@ -4,7 +4,7 @@
 
 ## 🔴 Live demo
 
-[**Open the live demo**](https://htmlpreview.github.io/?https://github.com/puffxhost/oneclick-app-installer/blob/baa75cda4d7bdbfeaf2cba3111e818e9b965dbd1/index.html)
+[**Open the live demo**](https://htmlpreview.github.io/?https://github.com/puffxhost/oneclick-app-installer/blob/06219b91ebe0d3827969369cab0ed459ee74892a/index.html)
 
 The preview is served by HTMLPreview from a commit-pinned GitHub source. Search results are provided by a third-party APK lookup API and depend on that service being available.
 
@@ -55,21 +55,23 @@ LICENSE      MIT license
 
 ## 🔌 API response format
 
-The front end expects a successful JSON response with these fields:
+The current lookup service returns a nested response like this:
 
 ```json
 {
-  "success": true,
-  "apk_name": "Example app",
-  "size": "42 MB",
-  "version": "1.0.0",
-  "description": "Optional app description",
-  "thumbnail": "https://example.com/icon.png",
-  "download_link": "https://example.com/download"
+  "status": true,
+  "owner": "@Provider",
+  "apk": {
+    "name": "Example app",
+    "lastUpdated": "1.0.0",
+    "package": "com.example.app",
+    "icon": "https://example.com/icon.png",
+    "downloadLink": "https://example.com/download.apk"
+  }
 }
 ```
 
-The `thumbnail` and `download_link` values must use HTTPS. The interface shows a helpful error if the service is unavailable, returns no match, or provides an invalid link.
+The interface supports this current nested format and the older flat `success` / `apk_name` format. App size and description are optional. Icon and download links must use HTTPS; invalid links are rejected. Search errors and unavailable service responses are shown in the page.
 
 ## 🧩 Deployment
 
