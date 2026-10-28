@@ -1,14 +1,14 @@
-# 🚀 OneClick App Finder
+# ☁️ Puffx Host App Finder
 
-> A polished, responsive front-end demo for searching Android app package listings. It does not install software or scan APK files.
+> A Puffx Host branded, responsive front-end demo for exploring Android app package listings. It does not install software or scan APK files.
 
 ## 🔴 Live demo
 
-[**Open the live demo**](https://htmlpreview.github.io/?https://github.com/puffxhost/oneclick-app-installer/blob/06219b91ebe0d3827969369cab0ed459ee74892a/index.html)
+[**Open the live demo**](https://htmlpreview.github.io/?https://github.com/puffxhost/oneclick-app-installer/blob/38f73d82a218709ab5d1f26f4f1c1d120669a444/index.html)
 
 The preview is served by HTMLPreview from a commit-pinned GitHub source. Search results are provided by a third-party APK lookup API and depend on that service being available.
 
-## ✨ Features
+## ☁️ Puffx Host branding\n\nThe interface uses Puffx Host's cloud identity, a blue-and-cyan visual theme, animated brand accents, and Puffx Host support links. The app is an independent demo interface; APK search and downloads are supplied by the third-party lookup provider described below.\n\n## ✨ Features
 
 - 🔎 Search app packages by name with quick-search chips
 - 🕘 Recent searches stored locally in your browser, with a clear-history control
